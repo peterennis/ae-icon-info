@@ -1,0 +1,33 @@
+{
+  "name": "@adaept/ae-icon-info",
+  "private": true,
+  "version": "0.0.1",
+  "description": "adaept icon info",
+  "scripts": {
+    "build": "stencil build --prerender",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "~0.15.0",
+    "@stencil/router": "~0.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.7",
+    "@types/puppeteer": "1.9.0",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "puppeteer": "1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterennis/ae-icon-info.git"
+  },
+  "author": "adaept",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterennis/ae-icon-info"
+  },
+  "homepage": "https://github.com/peterennis/ae-icon-info"
+}
