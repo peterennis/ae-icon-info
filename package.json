@@ -1,8 +1,8 @@
 {
-  "name": "@adaept/ae-icon-info",
+  "name": "@adaept/ae-iconinfo-component",
   "private": true,
-  "version": "0.0.1",
-  "description": "adaept icon info",
+  "version": "0.0.2",
+  "description": "adaept iconinfo component",
   "scripts": {
     "build": "stencil build --prerender",
     "start": "stencil build --dev --watch --serve",
@@ -10,15 +10,15 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "dependencies": {
-    "@stencil/core": "~0.15.2",
+    "@stencil/core": "0.16.1-2",
     "@stencil/router": "~0.3.1"
   },
   "devDependencies": {
-    "@types/jest": "23.3.9",
-    "@types/puppeteer": "1.9.1",
+    "@types/jest": "23.3.10",
+    "@types/puppeteer": "1.10.1",
     "jest": "23.6.0",
     "jest-cli": "23.6.0",
-    "puppeteer": "1.8.0"
+    "puppeteer": "1.11.0"
   },
   "repository": {
     "type": "git",
